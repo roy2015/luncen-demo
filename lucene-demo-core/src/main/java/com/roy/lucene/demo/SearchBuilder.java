@@ -73,7 +73,7 @@ public class SearchBuilder {
     }
 
     public static void main(String[] args){
-        String indexDir = "D:\\test\\lucene";
+        String indexDir = "/Users/apple/guojun/code/test/lucene";
         String q = "guo"; //查询这个字符串
         try {
             doSearch(indexDir, q);

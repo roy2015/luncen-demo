@@ -33,7 +33,7 @@ public class LuceneIndexer {
 
     private volatile static LuceneIndexer instance;
 
-    private final static String INDEX_DIR = "D:\\test\\lucene";
+    private final static String INDEX_DIR = "/Users/apple/guojun/code/test/lucene";
 
     private static class SingletonHolder{
         private final static LuceneIndexer instance=new LuceneIndexer();
